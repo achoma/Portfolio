@@ -44,7 +44,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0;
-  background-color: transparent;
+  background-color: var(--dark-green);
 }
 .navi{
   display: flex;
@@ -59,7 +59,7 @@ body {
 }
 .navi a:hover,
 .navi a:focus{
-  color: var(--light-green);
+  color: var(--light-grey);
 }
 /* SCECTION MAIN */
 h1{
@@ -84,4 +84,33 @@ text-align: center;}
 .name li{
   justify-content: center;
   align-content: center;
+}
+.sm {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  
+}
+
+.sm-icons {
+  
+  background-color: var(--gold);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.sm-icons-item {fill: var(--light-grey);
+  margin: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.sm-icons:focus,
+.sm-icons:hover {
+  background-color: var(--dark-green);
+  transition: color var(--transition), background-color var(--transition),
+    box-shadow var(--transition);
+}
+.sm-icons:hover {
+  cursor: pointer;
 }
