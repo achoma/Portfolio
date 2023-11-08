@@ -41,7 +41,7 @@ a {text-decoration: none;}
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0;
-  background-color: var(--dark-green);
+  background-color: var(--light-grey);
 }
 .navi{
   display: flex;
@@ -70,7 +70,9 @@ h1{
 .craft{color: var(--dark-green);
 text-align: center;
 font-size: 30px;}
-.main {
+.main {  background-image: 
+url(../images/Rectangle\ 67.png)
+; padding-top: -50px;
     padding-bottom: -96px;
   background-color: var(--light-grey);
 }
@@ -118,7 +120,7 @@ font-size: 30px;}
 }
 /* SCECTION ABOUT */
 .about{
-  background-color: var(--dark-green);
+  background-color: var(--dark);
   color: var(--light-grey);
 }
 h2{
