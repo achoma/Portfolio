@@ -70,17 +70,28 @@ h1{
 .craft{color: var(--dark-green);
 text-align: center;
 font-size: 30px;}
-.main {  background-image: 
-url(../images/Rectangle\ 67.png)
-; padding-top: -50px;
+.main { 
+  /* background-image: 
+url(../images/Rectangle\ 67.png); */
+ padding-top: -50px;
     padding-bottom: -96px;
   background-color: var(--light-grey);
 }
+
 .main-item {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-shrink: 0;
+}
+.my-photo{    
+  /* background-image: 
+url(../images/Rectangle\ 67.png); */
+display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0;
+  padding-top: -98px;
 }
 .name {padding-top: 180px;
   justify-content: center;
@@ -104,11 +115,19 @@ url(../images/Rectangle\ 67.png)
 }
 .sm-icons-item {
   fill: var(--light-grey);
-  margin: 8px;
+    margin: 8px;
   width: 24px;
   height: 24px;
 }
-
+.background-icons {
+  width: 1802.297px;
+  height: 1373.99px;
+  /* transform: rotate(9.667deg); */
+  fill: var(--dark);
+  /* margin: 8px; */
+  /* width: 24px;
+  height: 24px; */
+}
 .sm-icons:focus,
 .sm-icons:hover {
   background-color: var(--dark-green);
